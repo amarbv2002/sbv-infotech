@@ -1,0 +1,67 @@
+body {
+  color: #003364;
+}
+
+.btn-primary {
+  background-color: #003364;
+  border: 0;
+  text-transform: uppercase;
+}
+
+.btn-primary:hover {
+  background-color: #3eabe0;
+}
+
+.btn-secondary {
+  background-color: #3eabe0;
+  border: 0;
+}
+
+.slider {
+  background: linear-gradient(rgba(0, 52, 100, 0.85), rgba(0, 52, 100, 0.85)),
+    url("../img/slider-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  /* height: 60vh; */
+  padding: 7rem 1rem;
+}
+
+.slider h1 {
+  background-color: white;
+  border-radius: 999px;
+  margin: 0;
+  padding: 30px 20px;
+}
+
+.products {
+  background-color: #f0f0f0;
+}
+
+.each-product {
+  border-radius: 20px;
+  padding-inline: 20px;
+  transition: 0.4s;
+}
+
+.each-main-product {
+  transition: 0.4s;
+}
+
+.each-product:hover,
+.each-main-product:hover {
+  transform: scale(1.0665);
+}
+
+.each-product img {
+  height: 175px;
+}
+
+.footer-end {
+  background-color: #003364;
+}
+
+.contact i {
+  font-size: 3rem;
+}
